@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cash Register</title>
+    <link href="style.css"rel="stylesheet"/>
 </head>
 <body>
-    <h1>Cash Register  </h1>
+    <h1 class = "headerText">Cash Register  </h1>
+
+    <div class = "container">   
 
     <h3>Welcome to the cash register </h3>
     <h3> Please enter the bill amount </h3>
@@ -15,9 +18,14 @@
 
     <input id="amoun" type="number" placeholder="Enter amount  here " >
 
-    
+    <button id = "ckh">Check</button>
 
     
+
+    <div id="cashsec">
+
+
+        
 
     <div>
         Cash Given 
@@ -28,7 +36,7 @@
 
     <div>
 
-        <button id = "checkButton"> Check </button>
+        <button id = "checkButton"> Check Value </button>
 
 
     </div>
@@ -42,18 +50,18 @@
     </div>
 
 
-    <table>
+    <table class="container">
         <tr>
             <td>
               <strong>  No.of notes </strong>
             </td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td class = "vals"></td>
+            <td class = "vals"></td>
+            <td class = "vals"></td>
+            <td class = "vals"></td>
+            <td class = "vals"></td>
+            <td class = "vals"></td>
+            <td class = "vals"></td>
         </tr>
 
         <tr>
@@ -74,6 +82,9 @@
     
 
 
+    </div>
+
+</div>
 
     
     
